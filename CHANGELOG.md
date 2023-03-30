@@ -4,7 +4,7 @@
 
 ### Fixes
 
-* Add docs current `_url` to their `historicUrls` array using `'@apostrophecms/doc-type:beforeSave'` rather than `'@apostrophecms/page:beforeSend'` to fix a 404 issue when an attempt is made to edit their draft while their page (or piece show page) has never been visited before.
+* Add docs current `_url` to their `historicUrls` array using `'@apostrophecms/doc-type:beforeSave'` rather than `'@apostrophecms/page:beforeSend'` to fix a 404 issue when an attempt is made to edit their draft while their page (or piece show page) has never been visited before. This bug happened when a draft had a different slug than the published version, for instance when the draft was submitted (not published) with a title changed, having the slug reflecting the new title.
 
 ## 3.43.0 (2023-03-29)
 
