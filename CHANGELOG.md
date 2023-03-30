@@ -1,5 +1,11 @@
 # Changelog
 
+## UNRELEASED
+
+### Fixes
+
+* Add docs current `_url` to their `historicUrls` array using `'@apostrophecms/doc-type:beforeSave'` rather than `'@apostrophecms/page:beforeSend'` to fix a 404 issue when an attempt is made to edit their draft while their page (or piece show page) has never been visited before.
+
 ## 3.43.0 (2023-03-29)
 
 ### Adds
