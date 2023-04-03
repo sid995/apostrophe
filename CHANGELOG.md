@@ -1,5 +1,11 @@
 # Changelog
 
+## UNRELEASED
+
+### Fixes
+
+* Fix 404 error when trying to view or edit a document, when its draft was saved with a different slug than the published version and its page -or piece show page- has never been visited before.
+
 ## 3.43.0 (2023-03-29)
 
 ### Adds
